@@ -13,7 +13,8 @@ Arquivos para a Sprint2
 
 -Respeitar as falas de cada integrante do grupo durante as reuniões (não cortar no meio);
 
-* AS REUNIÕES SEMANAIS SERÃO DE SEXTA FEIRA LOGO APÓS O FINAL DA AULA *
+* AS REUNIÕES SEMANAIS SERÃO DE QUARTA FEIRA LOGO APÓS O FINAL DA AULA *
 
- Outras reuniões (Discord)  vão ser necessárias no decorrer do projeto, porém o horário e o dia dessas reuniões vão ser mais flexíveis.
+ Outras reuniões (Discord)  vão ser necessárias no decorrer do projeto,
+ porém o horário e o dia dessas reuniões vão ser mais flexíveis.
 ```
