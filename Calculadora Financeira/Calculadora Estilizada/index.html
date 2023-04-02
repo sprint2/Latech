@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Simulação</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="" class="logo">latech</a></li>
+                <li><a href="" class="sobre">Sobre</a></li>
+                <li><a href="" class="solucao">Solução</a></li>
+                <li><a href="" class="simulacao">Simulação</a></li>
+                <li><a href="" class="contato">Contato</a></li>
+                <li><a href="" class="entrar">Entrar</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="container">
+            <div class="simlacss">
+                <text class="simulalogo">SIMULAdor</text><br><br><br>
+                <text class="textosimulacao">Com base em estudos realizados, acredita-se que cerca de 10% do leite é
+                    perdido durante o armazenamento devido a problemas de
+                    controle de temperatura e umidade. No entanto, com o uso de nossos sensores de alta precisão e nosso
+                    software, é possível
+                    reduzir significativamente essa perda para apenas 2%. Faça uma simulação do quanto de lucro você
+                    poderá ter utilizando o nosso
+                    sistema:</text><br><br>
+                <div class="inputs">
+                    <text>Quantidade de litros produzidos por mês:</text><br>
+                    <input id="inpLitros" placeholder="Ex.: 24000"><br><br>
+                    <text>Custo de Produção:</text><br>
+                    <input id="inpCustoProd" placeholder="Ex.: 1.5"><br><br>
+                    <text>Preço de venda do litro</text><br>
+                    <input id="inpVendaLitro" placeholder="Ex.: 4"><br><br>
+                    <button onclick="simular()" class="btnCalc">Calcular</button>
+                </div>
+            </div><br>
+            <div id="resultado" class="divresultado">
+                <div class="divtitulos">
+                    <table id="tb-resultado">
+                        <tr class="titulos">
+                            <td> </td>
+                            <td id="novo">Mês</tsd>
+                            <td id="novo">Ano</td>
+                            <td id="novo">Perda anual</td>
+                        </tr>
+                        <tr>
+                            <td id="title-colunm">Sem nossa solução</td>
+                            <td id="info-colunm">R$ 00,00</td>
+                            <td id="info-colunm">R$ 00,00</td>
+                            <td style="color: red" id="info-table">R$ 00,00</td>
+                        </tr>
+                        <tr>
+                            <td id="title-colunm">Com nossa solução</td>
+                            <td id="info-colunm">R$ 00,00</td>
+                            <td id="info-colunm">R$ 00,00</td>
+                            <td style="color: green" id="info-table">R$ 00,00</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

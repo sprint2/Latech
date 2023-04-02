@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+@import url('https://fonts.cdnfonts.com/css/cocosharp-trial');
+@import url('https://fonts.cdnfonts.com/css/momcake?styles=70427,70426');
+
+
+body {
+    background: linear-gradient(227.85deg, #58A1E4 0.29%, #2677B1 27.04%, #025183 61.07%);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    margin: 2% 3%;
+    padding: 2%;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.navbar {
+    height: auto;
+    position: relative;
+    width: 100%;
+    left: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 10%;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 5%;
+    top: 2%;
+    font-family: 'CocoSharp Trial';
+    font-style: normal;
+    font-size: 2.5em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+.sobre {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.solucao {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 60%;
+    top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 40px;
+
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.simulacao {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 70%;
+    top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 40px;
+
+    /*identical to box height*/
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contato {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 80%;
+    top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 40px;
+
+    /* identical to box height */
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.entrar {
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 90%;
+    top: 1%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 39px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.simulacss {
+    position: fixed;
+    width: auto;
+    height: auto;
+}
+
+.simulalogo {
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 40%;
+    top: 10%;
+    font-family: 'MOMCAKE', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 53px;
+
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.textosimulacao {
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+    top: auto;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    line-height: 29px;
+    text-align: justify;
+
+    color: #FFFFFF;
+
+}
+
+.inputs {
+    align-items: center;
+    width: 30%;
+    font-size: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    margin: 5%;
+    position: relative;
+    margin: auto;
+    padding: 5%;
+    border-radius: 15px;
+}
+
+div input {
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 2%;
+    width: 85%;
+    border: 1px solid #FFFFFF;
+}
+
+div .inputs text {
+    margin-left: 2%;
+}
+
+.btnCalc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #7ab3e1;
+    padding: 5px 45px;
+    cursor: pointer;
+    background: #7AB2E1;
+    border-radius: 15px;
+    margin: 0% 25%;
+
+    /*Letras dentro do Button*/
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100%;
+    line-height: 39px;
+    color: #012E4A;
+}
+
+.btnCalc:hover {
+    background: color #1174c4;
+}
+
+.btnCalc:active {
+    position: relative;
+    top: 1px;
+}
+
+.divresultado {
+    display: flex;
+    width: 45%;
+    height: 8em;
+    background: linear-gradient(227.85deg, #58A1E4 0.29%, #2677B1 27.04%, #025183 61.07%);
+    font-family: 'Inter';
+    border: 1px #58A1E4;
+    font-style: normal;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divtitulos {
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    width: 90%;
+    height: 100%;
+
+}
+
+.titulos {
+    color: #FFFFFF;
+    overflow: hidden;
+    border-radius: 15px;
+    width: auto;
+}
+
+#novo {
+    width: 25.5% ;
+    align-items: center;
+}
+
+td{
+    width: auto;
+    font-size: 100%;
+}
