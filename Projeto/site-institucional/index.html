@@ -6,30 +6,48 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/styles/style.css">
-    <script src="../assets/script/script.js"></script>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="assets/script/script.js"></script>
     <title>Simulação</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar">
+            <span class="logo">Latech</span>
             <ul>
-                <li><a href="" class="logo">latech</a></li>
-                <li><a href="" class="sobre">Sobre</a></li>
-                <li><a href="" class="solucao">Solução</a></li>
-                <li><a href="" class="simulacao">Simulação</a></li>
-                <li><a href="" class="contato">Contato</a></li>
-                <li><a href="login.html" class="entrar">Entrar</a></li>
+                <li><a href="#sobre" class="">Sobre</a></li>
+                <li><a href="#solucao" class="">Solução</a></li>
+                <li><a href="#simulacao" class="">Simulação</a></li>
+                <li><a href="#contato" class="">Contato</a></li>
+                <li><a href="login.html" class="">Entrar</a></li>
             </ul>
         </nav>
-
+        <div id="header-content">
+            <!-- (Mari) a header vai aqui dentro -->
+    
+        </div>
     </header>
     <main>
-        <section class="container">
-            <div class="simulador">
-                <text class="simulador-logo">SIMULAdor</text><br><br><br>
-                <text class="texto-simulacao">Com base em estudos realizados, acredita-se que cerca de 10% do leite é
+        <section id="sobre">
+            <!-- (Mari) a parte de sobre nós vem aqui -->
+            
+        </section>
+
+        <section id="objetivo">
+            <!-- (Gui e Brian) nosso objetivo vem aqui -->
+            
+        </section>
+
+        <section id="solucao">
+            <!-- (Yuri e Michael) -->
+            
+        </section>
+
+        <section id="simulador">
+            <div class="container">
+                <text class="titulo-simulador">SIMULAdor</text><br><br><br>
+                <text class="texto-simulador">Com base em estudos realizados, acredita-se que cerca de 10% do leite é
                     perdido durante o armazenamento devido a problemas de
                     controle de temperatura e umidade. No entanto, com o uso de nossos sensores de alta precisão e nosso
                     software, é possível
@@ -37,17 +55,26 @@
                     poderá ter utilizando o nosso
                     sistema:</text><br><br>
                 <div class="inputs">
-                    <text>Quantidade de litros produzidos por mês:</text><br>
-                    <input id="inp_litros" placeholder="Ex.: 24000"><br><br>
-                    <text>Custo de Produção:</text><br>
-                    <input id="inp_custo_prod" placeholder="Ex.: 1.5"><br><br>
-                    <text>Preço de venda do litro</text><br>
-                    <input id="inp_venda-litro" placeholder="Ex.: 4"><br><br>
+                    <label for="inp_litros">
+                        <text>Quantidade de litros produzidos por mês:</text>
+                        <input id="inp_litros" placeholder="Ex.: 24000">
+                    </label>
+
+                    <label for="inp_custo_prod">
+                        <text>Custo de Produção:</text>
+                        <input id="inp_custo_prod" placeholder="Ex.: 1.5">
+                    </label>
+
+                    <label for="inp_venda_litro">
+                        <text>Preço de venda do litro</text>
+                        <input id="inp_venda_litro" placeholder="Ex.: 4">
+                    </label>
+
                     <button onclick="simular()" class="btn">Calcular</button>
                 </div>
-            </div><br>
-            <div id="resultado" class="div-resultado">
-                <div class="div-titulos">
+            </div>
+            <div id="resultado">
+                <div class="table-titulos">
                     <table id="tb-resultado">
                         <tr class="titulos">
                             <td></td>
@@ -69,11 +96,13 @@
                         </tr>
                     </table>
                 </div>
-
             </div>
         </section>
     </main>
 
-</body>
+    <footer>
+        <!-- (Gabi) tudo do footer vem aqui -->
 
+    </footer>
+</body>
 </html>

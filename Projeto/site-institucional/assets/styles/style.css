@@ -4,9 +4,13 @@
 
 
 body {
+    font-family: 'Inter';
     background: linear-gradient(227.85deg, #58A1E4 0.29%, #2677B1 27.04%, #025183 61.07%);
+    background-size: cover;
     justify-content: center;
     align-items: center;
+    padding: 0;
+    margin: 0;
 }
 
 .titulo {
@@ -16,200 +20,6 @@ body {
     font-size: 50px;
     line-height: 53px;
     color: #58A1E4;
-}
-
-.container {
-    display: flex;
-    position: relative;
-    margin: 2% 3%;
-    padding: 2%;
-    width: 90%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-}
-
-.navbar {
-    height: auto;
-    position: relative;
-    width: 100%;
-    left: auto;
-}
-
-.navbar ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 10%;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.logo {
-    position: relative;
-    width: auto;
-    height: auto;
-    left: 5%;
-    top: 2%;
-    font-family: 'CocoSharp Trial';
-    font-style: normal;
-    font-size: 2.5em;
-    text-transform: lowercase;
-    color: #FFFFFF;
-}
-
-.sobre {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 50%;
-    top: 1%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100%;
-    line-height: 40px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.solucao {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 60%;
-    top: 1%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100%;
-    line-height: 40px;
-
-
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.simulacao {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 70%;
-    top: 1%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100%;
-    line-height: 40px;
-
-    /*identical to box height*/
-
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.contato {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 80%;
-    top: 1%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100%;
-    line-height: 40px;
-
-    /* identical to box height */
-
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.entrar {
-    position: absolute;
-    width: auto;
-    height: auto;
-    left: 90%;
-    top: 1%;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100%;
-    line-height: 39px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.simulador-css {
-    position: fixed;
-    width: auto;
-    height: auto;
-}
-
-.simulador-logo {
-    position: relative;
-    width: auto;
-    height: auto;
-    left: 40%;
-    top: 10%;
-    font-family: 'MOMCAKE', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 53px;
-
-    /* identical to box height */
-    color: #FFFFFF;
-}
-
-.texto-simulacao {
-    position: relative;
-    width: auto;
-    height: auto;
-    text-align: center;
-    top: auto;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 100%;
-    line-height: 29px;
-    text-align: justify;
-
-    color: #FFFFFF;
-
-}
-
-.inputs {
-    align-items: center;
-    width: 30%;
-    font-size: 100%;
-    font-family: 'Inter';
-    font-style: normal;
-    color: #FFFFFF;
-    margin: 5%;
-    position: relative;
-    margin: auto;
-    padding: 5%;
-    border-radius: 15px;
-}
-
-div input {
-    align-items: center;
-    border-radius: 10px;
-    padding: 5px;
-    margin-left: 2%;
-    width: 85%;
-    border: 1px solid #FFFFFF;
-}
-
-div .inputs text {
-    margin-left: 2%;
 }
 
 .btn {
@@ -222,13 +32,124 @@ div .inputs text {
     background: #7AB2E1;
     border-radius: 12px;
     padding: 8px 12px;
-    /*Letras dentro do Button*/
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     color: #012E4A;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1% 4%;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    position: relative;
+    font-family: 'CocoSharp Trial';
+    font-style: normal;
+    font-size: 2.5em;
+    text-transform: lowercase;
+    color: #FFFFFF;
+}
+
+#header-content, #sobre, #objetivo, #solucao, #simulador {
+    width: 100%;
+    padding: 0 4%;
+    box-sizing: border-box;
+}
+
+.titulo-simulador {
+    font-family: 'MOMCAKE', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.texto-simulador {
+    position: relative;
+    width: auto;
+    height: auto;
+    text-align: center;
+    top: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 30%;
+    font-size: 100%;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    position: relative;
+    margin: auto;
+    padding: 5%;
+}
+
+.inputs label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.inputs .btn {
+    width: 150px;
+}
+
+.inputs input {
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 2%;
+    width: 85%;
+    height: 20px;
+    border: 1px solid #FFFFFF;
+}
+
+div .inputs text {
+    margin-left: 2%;
 }
 
 .btn:hover {
@@ -240,18 +161,18 @@ div .inputs text {
     top: 1px;
 }
 
-.div-resultado {
+#resultado {
     display: flex;
-    width: 45%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
     height: 8em;
     background: linear-gradient(227.85deg, #58A1E4 0.29%, #2677B1 27.04%, #025183 61.07%);
     font-family: 'Inter';
     border: 1px #58A1E4;
     font-style: normal;
     border-radius: 15px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
 
 .div-titulos {
@@ -280,23 +201,41 @@ td{
 }
 
 .header-login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-login nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    gap: 12px;
+}
+
+.header-login nav ul li a img {
+    width: 20px;
+}
+
+.header-background {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
 }
 
 .container-login {
+    margin-top: 5%;
     border-radius: 16px;
     flex-direction: column;
     text-align: center;
     display: flex;
-    padding: 16px 16px;
+    padding: 24px 24px;
     background-color: white;
-    width: 35%;
-    justify-content: center;
-    
-    
+    width: 30%;
+    justify-content: center; 
 }
 
 .container-login .titulo {
@@ -324,17 +263,23 @@ td{
 
 .form input {
     width: 100%;
-    background-color: #eeee;
+    background-color: #eee;
     font-family: 'Inter';
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #FFFFFF;
 }
 
 .form label {
-    text-align: start;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
 }
 
-
-.form p a {
+.form a {
     text-decoration: none;
 }
 
@@ -344,11 +289,6 @@ td{
 
 .voltar {
     position: relative;
-    width: auto;
-    height: auto;
-    left: 1300%;
-    top: 2%;
     font-family: 'Inter';
-    text-transform: uppercase;
-    
+    text-transform: uppercase; 
 }
