@@ -83,7 +83,11 @@ body {
     color: #FFFFFF;
 }
 
-#header-content, #sobre, #objetivo, #solucao, #simulador {
+#header-content,
+#sobre,
+#objetivo,
+#solucao,
+#simulador {
     width: 100%;
     padding: 0 4%;
     box-sizing: border-box;
@@ -191,11 +195,11 @@ div .inputs text {
 }
 
 #novo {
-    width: 25.5% ;
+    width: 25.5%;
     align-items: center;
 }
 
-td{
+td {
     width: auto;
     font-size: 100%;
 }
@@ -235,7 +239,7 @@ td{
     padding: 24px 24px;
     background-color: white;
     width: 30%;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .container-login .titulo {
@@ -247,7 +251,7 @@ td{
 .container-login p {
     font-family: 'Inter';
     padding: 0 10px 0 10px;
-    
+
 }
 
 .container-login .btn {
@@ -290,5 +294,60 @@ td{
 .voltar {
     position: relative;
     font-family: 'Inter';
-    text-transform: uppercase; 
+    text-transform: uppercase;
 }
+
+.header-content {
+    display: flex;
+    align-content: flex-start;
+
+
+}
+
+.header-content .titulo-header h1 {
+    padding: 0 100px;
+    width: 800px;
+    height: 120px;
+    font-family: 'Momcake';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.header-content .texto-header {
+    color: white;
+    width: 710px;
+    height: 102px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0 0 0 100px;
+}
+
+.header-content button {
+    background: #7AB2E1;
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #012E4A;
+    padding: 1% 2%;
+    margin-top: 3%;
+    margin-left: 10%;
+    border: none;
+    display: flex;
+}
+.header-content .imagem-leite .img1 {
+    border: none;
+    width: 340px;
+    height: 500px;
+    padding: 40px 20px;
+    color: white;
+    background-image: url('/assets/img/illustrations/milk-bottle-free\ 1.png');
+    background-size: cover;
+}
+
