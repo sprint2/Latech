@@ -89,7 +89,7 @@ body {
 #solucao,
 #simulador {
     width: 100%;
-    padding: 0 4%;
+    padding: 0 0%;
     box-sizing: border-box;
 }
 
@@ -300,6 +300,7 @@ td {
 .header-content {
     display: flex;
     align-content: flex-start;
+    margin-top: 5%;
 
 
 }
@@ -341,6 +342,7 @@ td {
     border: none;
     display: flex;
 }
+
 .header-content .imagem-leite .img1 {
     border: none;
     width: 340px;
@@ -350,6 +352,56 @@ td {
     background-image: url('/assets/img/illustrations/milk-bottle-free\ 1.png');
     background-size: cover;
 }
+
+
+.sobre {
+    border: 0px;
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url('/assets/img/background/milkwave.png');
+    background-size: 1550px;
+    background-repeat: no-repeat;
+    display: block;
+
+}
+
+.sobre-texto {
+    width: 1544px;
+    height: 700px;
+    margin: 0px;
+    display: flex;
+    margin-top: 0px;
+    background-color: #FFFFFF;
+    display: block;
+    clear: both;
+}
+
+.sobre-texto .sobre-titulo {
+    text-align: center;
+    width: 1544px;
+    height: 150px;
+    font-family: 'Momcake';
+    font-style: normal;
+    color: #58A1E4;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.sobre-texto .sobre-corpo{
+    display: block;
+    width: 700px;
+    align-content: end;
+}
+.sobre-texto .sobre-corpo p {
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+}
+
 
 footer {
     background-color: white;
@@ -419,8 +471,8 @@ footer .final2 {
 }
 
 footer li {
-    padding: 1% 4% ;
-    
+    padding: 1% 4%;
+
 }
 
 
