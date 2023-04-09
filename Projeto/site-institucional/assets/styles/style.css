@@ -351,3 +351,94 @@ td {
     background-size: cover;
 }
 
+footer {
+    background-color: white;
+    position: relative;
+
+}
+
+footer .final {
+    justify-content: space-around;
+    display: flex;
+    padding: 120px;
+
+}
+
+footer .logo_footer {
+    padding-right: 150px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left: 200px;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer li {
+    padding-left: 200px;
+}
+
+footer #dois {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+footer #redes {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    text-align: center;
+    color: #232323;
+    font-size: 12px;
+
+}
+
+footer .final2 {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    margin-top: 0px;
+    border-top: 1px #7AB2E1 solid;
+
+}
+
+.navbar_inf {
+    position: relative;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1% 4%;
+}
+
+footer li {
+    padding: 1% 4% ;
+    
+}
+
+
+.navbar_inf ul {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+}
+
+.navbar_inf ul li a {
+    color: #232323;
+    list-style: none;
+    text-decoration: none;
+}
+
+footer .cop {
+    display: flex;
+    margin: 0 50px 0 0;
+    padding: 30px 100px 0 0;
+    font-size: 10px;
+}
