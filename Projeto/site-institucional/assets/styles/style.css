@@ -494,3 +494,54 @@ footer .cop {
     padding: 30px 100px 0 0;
     font-size: 10px;
 }
+
+.titulo-objetivo {
+    display: flex;
+    justify-content: center;
+}
+
+.objetivo {
+    background-color: white;
+}
+
+.vaca {
+    width: 550px;
+}
+
+.objetivo01 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.objetivo01 p {
+    margin: 50px;
+    text-align: justify;
+}
+
+.objetivo02 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.objetivo02 p {
+    margin: 50px;
+    text-align: justify;
+}
+
+.business {
+    width: 550px;
+    height: 400px;
+}
+
+.objetivo03 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.objetivo03 p {
+    margin: 50px;
+    text-align: justify;
+}
