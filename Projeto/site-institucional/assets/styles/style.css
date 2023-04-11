@@ -368,10 +368,8 @@ td {
 
 
 #sobre {
+    padding: 2% 0 ;
     border: 0px;
-    margin-bottom: 0px;
-    width: 100%;
-    background-image: url('assets/img/background/milkwave.png');
     background-repeat: no-repeat;
     background-color: #FFFFFF;
 
@@ -379,32 +377,38 @@ td {
 
 .sobre-texto {
     width: 100%;
-    height: 700px;
+    height: 50%;
     display: flex;
     align-items: center;
-    flex-direction: column;
+    justify-content: space-between;
 }
 
 .sobre-titulo {
-    text-align: center;
-    width: auto;
-    font-family: 'Momcake';
-    font-style: normal;
-    color: #58A1E4;
-    font-weight: 700;
-    font-size: 64px;
-}
-
-.sobre-corpo{
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    font-family: 'MOMCAKE', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+  
+    color: #58A1E4;
+}
+
+.sobre-corpo {
+    margin: 50px;
     width: 50%;
-    align-content: end;
+    text-align: justify;
+    font-weight: 600;
 
 }
+
+.icon_latech {
+    margin-left: 5%;
+    width: 450px;
+}
+
 .sobre-texto .sobre-corpo p {
     color: black;
-    font-size: 20px;
     line-height: 24px;
     text-align: justify;
 }
@@ -577,3 +581,7 @@ footer .cop {
     top: -20%;
 }
 
+.milk01 {
+    width: 100%;
+    position: relative;
+}
